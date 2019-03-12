@@ -121,7 +121,7 @@ img {
 .skill-list {
   height: 1em;
   border-radius: 6px 0px 0px 6px;
-  background-image: linear-gradient(lightgreen, green, darkgreen);
+  background-image: linear-gradient(#61ceb4, #179a27, #6d4f0c);
 }
 
 /* change the width of each skill to correct percentage */
