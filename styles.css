@@ -1,64 +1,167 @@
-* {
-  margin: 0 auto;
-}
-
 body {
-  padding: 20px 150px;
-  background-color: beige;
+  margin: 0 auto;
+  color: #1a2f38;
+  width: 700px;
+  padding: 10px 12%;
+  background-color: #f0fffc;
+  font-family: "Fira Mono", monospace;
 }
 
-.main {
-  border-bottom: 3px solid darkgray;
+h1 {
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
-header {
-  border-bottom: 3px solid darkgray;
+h2,
+h3 {
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 5px;
 }
 
-.image {
-  float: right;
-  padding: 0 20px 20px 20px;
-  width: 160px;
-  height: 180px;
-  background-color: black;
-  border-radius: 50%;
+h2 {
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(
+    to right,
+    #734973,
+    #454577,
+    #63aba4,
+    #4f983c,
+    #c5c54e,
+    #deaa4b,
+    #ce4f72
+  );
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .contact {
   position: relative;
-  width: 70%;
-  height: 200px;
-  margin: 20px;
+  width: 100%;
+  height: 220px;
 }
 
 .contact-info {
+  padding-left: 10px;
   position: absolute;
-  bottom: 10px;
-  right: 0;
-  width: 100%;
-  padding: 20px;
-  box-shadow: 3px 3px 15px -5px grey;
+  bottom: 0;
+}
+
+img {
+  float: right;
+  margin: 10px;
+  width: 140px;
+  height: 190px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .profile {
-  padding: 20px 200px;
-  border-bottom: 3px solid darkgray;
+  padding: 2px 15%;
+  text-align: center;
 }
 
-.skills {
-  float: right;
-  width: 40%;
-  margin: 0 0 20px 20px;
-  padding: 20px;
-  height: 460px;
-  box-shadow: 3px 3px 15px -5px grey;
+.main {
+  position: relative;
+}
+
+.left-column {
+  height: 550px;
+  margin-right: 50%;
+  width: 57%;
+}
+
+.right-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 550px;
+  margin-left: 50%;
+  width: 45%;
 }
 
 .education,
-.experience {
-  width: 45%;
-  margin: 20px 20px 20px 0;
-  padding: 20px;
-  height: 200px;
-  box-shadow: 3px 3px 15px -5px grey;
+.experience,
+.bonus,
+.skills {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -6px 0 8px -5px #1a2f38;
+}
+
+.skills {
+  margin-top: 0;
+}
+
+.skill-line {
+  position: relative;
+  width: 280px;
+}
+
+/* the skill-bar class covers all skills, each skill has their own class where percentage must be given */
+
+.skill-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 1em;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.skill-list {
+  height: 1em;
+  border-radius: 6px 0px 0px 6px;
+  background-image: linear-gradient(lightgreen, green, darkgreen);
+}
+
+/* change the width of each skill to correct percentage */
+
+.no1 {
+  width: 90%;
+}
+
+.no2 {
+  width: 85%;
+}
+
+.no3 {
+  width: 85%;
+}
+
+.no4 {
+  width: 78%;
+}
+
+.no5 {
+  width: 75%;
+}
+
+.no6 {
+  width: 70%;
+}
+
+.no7 {
+  width: 70%;
+}
+
+/* each job has a description inside a box */
+
+.job-description {
+  padding: 5px;
+  margin: 4px 0 15px 25px;
+  font-size: 0.9em;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px black;
+  font-style: italic;
 }
