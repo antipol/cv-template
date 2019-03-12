@@ -1,0 +1,64 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  padding: 20px 150px;
+  background-color: beige;
+}
+
+.main {
+  border-bottom: 3px solid darkgray;
+}
+
+header {
+  border-bottom: 3px solid darkgray;
+}
+
+.image {
+  float: right;
+  padding: 0 20px 20px 20px;
+  width: 160px;
+  height: 180px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.contact {
+  position: relative;
+  width: 70%;
+  height: 200px;
+  margin: 20px;
+}
+
+.contact-info {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 3px 3px 15px -5px grey;
+}
+
+.profile {
+  padding: 20px 200px;
+  border-bottom: 3px solid darkgray;
+}
+
+.skills {
+  float: right;
+  width: 40%;
+  margin: 0 0 20px 20px;
+  padding: 20px;
+  height: 460px;
+  box-shadow: 3px 3px 15px -5px grey;
+}
+
+.education,
+.experience {
+  width: 45%;
+  margin: 20px 20px 20px 0;
+  padding: 20px;
+  height: 200px;
+  box-shadow: 3px 3px 15px -5px grey;
+}
