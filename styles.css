@@ -26,6 +26,10 @@ h2 {
   font-size: 2em;
 }
 
+span {
+  font-weight: bold;
+}
+
 .line {
   width: 100%;
   height: 5px;
@@ -75,7 +79,7 @@ img {
 .left-column {
   height: 550px;
   margin-right: 50%;
-  width: 57%;
+  width: 52%;
 }
 
 .right-column {
@@ -83,8 +87,8 @@ img {
   top: 0;
   right: 0;
   height: 550px;
-  margin-left: 50%;
-  width: 45%;
+  margin-left: 45%;
+  width: 53%;
 }
 
 .education,
@@ -96,8 +100,8 @@ img {
   box-shadow: -6px 0 8px -5px #1a2f38;
 }
 
-.skills {
-  margin-top: 0;
+.experience {
+  margin: 0 0 20px 20px;
 }
 
 .skill-line {
