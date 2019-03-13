@@ -41,7 +41,7 @@ span {
     #4f983c,
     #c5c54e,
     #deaa4b,
-    #ce4f72
+    #d41c4f
   );
   border-radius: 6px;
   box-shadow: 3px 3px 3px black;
@@ -117,7 +117,8 @@ img {
   right: 0;
   width: 200px;
   height: 1em;
-  background-color: white;
+  /* background-color: #ffe5f0; */
+  background-image: linear-gradient(white, #dcc1d1, #b885b9);
   border-radius: 6px;
   box-shadow: 2px 2px 2px black;
 }
@@ -162,7 +163,7 @@ img {
 
 .job-description {
   padding: 5px;
-  margin: 4px 0 15px 25px;
+  margin-left: 25px;
   font-size: 0.9em;
   background-color: white;
   border-radius: 6px;
