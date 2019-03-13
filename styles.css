@@ -73,43 +73,35 @@ img {
 }
 
 .main {
-  position: relative;
+  width: 720px;
 }
 
-.left-column {
-  height: 550px;
-  margin-right: 50%;
-  width: 52%;
-}
+/* two columns will float next to each other inside the .main class */
 
+.left-column,
 .right-column {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 550px;
-  margin-left: 45%;
-  width: 53%;
+  float: left;
+  width: 48%;
+  margin: 20px 5px;
 }
+
+/* styling of each section in the main class */
 
 .education,
 .experience,
 .bonus,
 .skills {
-  margin: 20px;
-  padding: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
   box-shadow: -6px 0 8px -5px #1a2f38;
 }
 
-.experience {
-  margin: 0 0 20px 20px;
-}
+/* the skill-bar class covers all skills, each skill has their own class where percentage must be given */
 
 .skill-line {
   position: relative;
   width: 280px;
 }
-
-/* the skill-bar class covers all skills, each skill has their own class where percentage must be given */
 
 .skill-bar {
   position: absolute;
@@ -159,7 +151,7 @@ img {
   width: 70%;
 }
 
-/* each job has a description inside a box */
+/* each job has a description inside a box, box is styled under .job-description class */
 
 .job-description {
   padding: 5px;
