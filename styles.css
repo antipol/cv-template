@@ -1,17 +1,30 @@
 body {
   margin: 0 auto;
   color: #1a2f38;
-  width: 700px;
-  padding: 10px 12%;
-  background-color: #f0fffc;
+  padding: 0 5%;
+  background-image: url(backgroundclouds.png);
+  background-attachment: fixed;
   font-family: "Fira Mono", monospace;
+}
+
+.all {
+  background-image: linear-gradient(
+    to right,
+    #ffffff00,
+    white 10%,
+    white 90%,
+    #ffffff00 100%
+  );
+  height: 1100px;
+  padding: 50px 230px;
 }
 
 h1 {
   font-family: "Press Start 2P", cursive;
   text-shadow: 2px 2px 2px black;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 2.7px;
+  padding-bottom: 20px;
 }
 
 h2,
@@ -121,6 +134,10 @@ img {
   background-image: linear-gradient(#61ceb4, #179a27, #6d4f0c);
 }
 
+.skill-list:hover {
+  background-image: linear-gradient(pink, red);
+}
+
 /* change the width of each skill to correct percentage */
 
 .no1 {
@@ -151,11 +168,18 @@ img {
   width: 70%;
 }
 
+/* class .job is a container for job title, company and time working there */
+
+.job {
+  line-height: 50%;
+}
+
 /* each job has a description inside a box, box is styled under .job-description class */
 
 .job-description {
   padding: 5px;
-  margin-left: 25px;
+  margin-left: 30px;
+  margin-bottom: 25px;
   font-size: 0.9em;
   background-color: white;
   border-radius: 6px;
